@@ -25,11 +25,4 @@ pip install -r requirements.txt
 # Run the summarization script
 python src/model.py --input data/sample_docs/legal_doc.txt
 
-## 📄 Example Output
-
-**Input**:  
-> "Whereas the parties have agreed to enter into an agreement..."
-
-**Summary Output**:  
-> "Parties agree to a contract for goods and services."
 
