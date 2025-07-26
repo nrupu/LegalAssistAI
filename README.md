@@ -11,6 +11,13 @@ An NLP-powered legal assistant that summarizes long legal texts using deep learn
 - 💻 **Simple CLI Tool** for quick and efficient summarization
 
 ---
+## 📄 Example Output
+
+**Input**:  
+> "Whereas the parties have agreed to enter into an agreement..."
+
+**Summary Output**:  
+> "Parties agree to a contract for goods and services."
 
 ## 🚀 How to Run
 
@@ -24,5 +31,8 @@ pip install -r requirements.txt
 
 # Run the summarization script
 python src/model.py --input data/sample_docs/legal_doc.txt
+
+
+
 
 
